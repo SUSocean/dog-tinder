@@ -1,0 +1,132 @@
+/*.......................................TYPOGRAPHY */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2222;
+}
+
+nav i {
+    color: #DCE1E7;
+    font-size: 2rem;
+}
+
+/* .................................................. */
+/*.............................................GENERAL */
+.container {
+    background: whitesmoke;
+    max-width: 550px;
+}
+
+.content {
+    width: 97%;
+    margin: 0 auto;
+}
+
+/*.................................................NAV */
+nav {
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #DCE1E7;
+}
+
+.active {
+    font-size: 1.5rem;
+    padding: 5px 18px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(90deg, rgba(250, 105, 90, 1) 0%, rgba(248, 51, 117, 1) 100%);
+}
+
+/*.................................................MAIN */
+.suggested-user-profile-picture {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+
+.end-page {
+    width: 100%;
+    height: 720px;
+    text-align: center;
+}
+
+.end-page p {
+    padding-top: 40%;
+    font-size: 2rem;
+}
+
+main {
+    position: relative;
+}
+
+#liked-banner img,
+#disliked-banner img {
+    width: 40%;
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    rotate: -35deg;
+}
+
+.hidden {
+    display: none;
+}
+
+.user-discription {
+    position: absolute;
+    bottom: 1rem;
+    left: 3%;
+    color: white;
+}
+
+.user-discription h4 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.user-discription p {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+/*.................................................FOOTER */
+
+footer {
+    width: 210px;
+    margin: 0 auto;
+}
+
+footer button {
+    background: white;
+    border: none;
+    margin: 15px 7.5px;
+    padding: 20px 20px;
+    border-radius: 50%;
+
+
+}
+
+footer button img {
+    height: 40px;
+}
+
+#dislike-btn:hover,
+#dislike-btn:focus {
+    background-color: #FFE7EF;
+}
+
+#like-btn:hover,
+#like-btn:focus {
+    background-color: #DBFFF4;
+}
+
+#dislike-btn:active,
+#like-btn:active {
+    transform: scale(.95);
+}
